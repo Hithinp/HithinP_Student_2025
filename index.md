@@ -6,7 +6,7 @@ hide: true
 image: /images/mario_animation.png
 ---
 
-<a href="{{site.baseurl}}/python-no/"><button>Python Notebook</button></a>
+<a href="{{site.baseurl}}/notebook/"><button>Python Notebook</button></a>
 <!-- Button Table at the Top -->
 <table>
   <tr>

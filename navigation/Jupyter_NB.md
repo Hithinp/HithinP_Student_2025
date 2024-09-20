@@ -3,10 +3,8 @@ layout: page
 title: Jupyter_NB
 permalink: /Jupyter_NB/
 ---
-
-# Jupyter Notebook for Project
 ---
-layout: page  
+layout: page
 title: Jupyter_NB  
 permalink: /Jupyter_NB/  
 ---
@@ -14,6 +12,7 @@ permalink: /Jupyter_NB/
 This is a Jupyter Notebook created for the project. You can add your description here.
 
 # Example Python code
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -27,14 +26,3 @@ plt.title('Sine Wave Example')
 plt.xlabel('X Axis')
 plt.ylabel('Y Axis')
 plt.show()
-
-## Additional Information
-You can add any notes, links, or explanations here.
-
-# My Jupyter Notebook Page
-
-This is a page with Python code.
-
-```{code-cell}
-print("Hello, World!")
- 

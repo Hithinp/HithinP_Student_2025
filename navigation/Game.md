@@ -3,7 +3,6 @@ layout: page
 title: Game
 permalink: /Game/
 ---
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -29,13 +28,20 @@ permalink: /Game/
         <button id="upgradeButton">Buy Upgrade</button>
     </div>
 
+    <!-- Add audio element for the cookie sound -->
+    <audio id="clickSound" src="audio/cookie.mp3"></audio>
+
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             let cookies = 0;
             let cookiesPerClick = 1;
             let upgradeCost = 50;
+            const clickSound = document.getElementById('clickSound');
 
             function clickCookie() {
+                // Play the sound on cookie click
+                clickSound.play();
+                
                 cookies += cookiesPerClick;
                 document.getElementById('cookieCount').textContent = cookies;
             }
@@ -200,3 +206,82 @@ permalink: /SnakeGame/
     </script>
 </body>
 </html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RGB Color Creator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    .color-box {
+      width: 200px;
+      height: 200px;
+      margin: 20px auto;
+      border: 2px solid #000;
+      background-color: rgb(0, 0, 0);
+    }
+    .slider-container {
+      width: 300px;
+      margin: 10px auto;
+    }
+    .slider {
+      width: 100%;
+    }
+    .value-display {
+      margin-top: 20px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>RGB Color Creator</h1>
+
+  <div class="color-box" id="colorBox"></div>
+
+  <div class="slider-container">
+    <label for="red">Red: <span id="redValue">0</span></label>
+    <input type="range" id="red" class="slider" min="0" max="255" value="0" oninput="updateColor()">
+  </div>
+
+  <div class="slider-container">
+    <label for="green">Green: <span id="greenValue">0</span></label>
+    <input type="range" id="green" class="slider" min="0" max="255" value="0" oninput="updateColor()">
+  </div>
+
+  <div class="slider-container">
+    <label for="blue">Blue: <span id="blueValue">0</span></label>
+    <input type="range" id="blue" class="slider" min="0" max="255" value="0" oninput="updateColor()">
+  </div>
+
+  <div class="value-display">
+    RGB Color Code: <span id="rgbValue">rgb(0, 0, 0)</span>
+  </div>
+
+  <script>
+    function updateColor() {
+      // Get RGB values from sliders
+      let red = document.getElementById('red').value;
+      let green = document.getElementById('green').value;
+      let blue = document.getElementById('blue').value;
+
+      // Update the color box background
+      let rgbColor = `rgb(${red}, ${green}, ${blue})`;
+      document.getElementById('colorBox').style.backgroundColor = rgbColor;
+
+      // Display the RGB values
+      document.getElementById('redValue').textContent = red;
+      document.getElementById('greenValue').textContent = green;
+      document.getElementById('blueValue').textContent = blue;
+      document.getElementById('rgbValue').textContent = rgbColor;
+    }
+  </script>
+
+</body>
+</html>
+

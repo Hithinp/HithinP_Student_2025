@@ -52,9 +52,6 @@ image: /images/mario_animation.png
 <hr>
 <p style="color: blue;">click here to learn about Science Olympiad</p>
 
-<a href="{{site.baseurl}}/zelda/"><button>Sprint2_Grading</button></a>
-<hr>
-
 <!-- Button to navigate to Science Olympiad -->
 <a href="{{site.baseurl}}/science-olympiad/"><button>Science Olympiad</button></a>
 <hr>
@@ -63,6 +60,26 @@ image: /images/mario_animation.png
 <!-- Button to navigate to DNHS Campus -->
 <a href="{{site.baseurl}}/dnhs-campus/"><button>DNHS Campus</button></a>
 
+<!-- Bottom Buttons Section -->
+<hr>
+
+<p style="font-size:90%; color: darkblue; font: bold 24px Arial, sans-serif;">Explore More:</p>
+<hr>
+<p style="color: blue;">click here to learn about Legends of Zelda: Breath of the Wild</p>
+
+<!-- Button to navigate to Legends of Zelda: Breath of the Wild -->
+<a href="{{site.baseurl}}/zelda/"><button>Legends of Zelda: Breath of the Wild</button></a>
+<hr>
+<p style="color: blue;">click here to learn about Sprint2 Grading</p>
+
+<!-- Button to navigate to Sprint2 Grading -->
+<a href="{{site.baseurl}}/sprint2-grading/"><button>Sprint2 Grading</button></a>
+<hr>
+<p style="color: blue;">click here to learn about Science Olympiad</p>
+
+<!-- Button to navigate to Science Olympiad -->
+<a href="{{site.baseurl}}/science-olympiad/"><button>Science Olympiad</button></a>
+<hr>
 
 
 <hr>

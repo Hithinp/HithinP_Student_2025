@@ -52,6 +52,9 @@ image: /images/mario_animation.png
 <hr>
 <p style="color: blue;">click here to learn about Science Olympiad</p>
 
+<a href="{{site.baseurl}}/zelda/"><button>Sprint2_Grading</button></a>
+<hr>
+
 <!-- Button to navigate to Science Olympiad -->
 <a href="{{site.baseurl}}/science-olympiad/"><button>Science Olympiad</button></a>
 <hr>

@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+---
+layout: base
+title: csp-struggles
+permalink: /csp-struggles
+---
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">

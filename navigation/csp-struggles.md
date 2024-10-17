@@ -10,12 +10,12 @@ permalink: /csp-struggles
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Weekly Perseverance</title>
   <style>
-    .week1 { color: dark blue; }
-    .week2 { color: dark red; }
-    .week3 { color: dark white; background-color: black; }
-    .week4 { color: dark yellow; }
-    .week5 { color: dark blue; }
-    .week6 { color: dark red; }
+    .week1 { color: darkblue; }
+    .week2 { color: darkblue; }
+    .week3 { color: darkblue; }
+    .week4 { color: darkblue; }
+    .week5 { color: darkblue; }
+    .week6 { color: darkblue; }
   </style>
 </head>
 <body>

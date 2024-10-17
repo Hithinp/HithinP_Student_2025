@@ -59,7 +59,7 @@ image: /images/mario_animation.png
 <hr>
 
 <p style="color: blue;">Click here to learn about DNHS Campus</p>
-<a href="{{ site.baseurl }}/DNHS-Campuss/"><button>DNHS Campus</button></a>
+<a href="{{ site.baseurl }}/DNHS-Campus/"><button>DNHS Campus</button></a>
 
 <hr>
 

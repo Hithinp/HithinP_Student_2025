@@ -1,0 +1,13 @@
+current directory: /Users/hithin/nighthawk/HithinP_Student_2025/vendor/bundle/ruby/3.1.0/gems/json-2.7.2/ext/json
+/Users/hithin/.rbenv/versions/3.1.4/bin/ruby -I /Users/hithin/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/hithin/nighthawk/HithinP_Student_2025/vendor/bundle/ruby/3.1.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20241016-28489-10fcyw sitelibdir\=./.gem.20241016-28489-10fcyw clean
+
+current directory: /Users/hithin/nighthawk/HithinP_Student_2025/vendor/bundle/ruby/3.1.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20241016-28489-10fcyw sitelibdir\=./.gem.20241016-28489-10fcyw
+make: Nothing to be done for `all'.
+
+current directory: /Users/hithin/nighthawk/HithinP_Student_2025/vendor/bundle/ruby/3.1.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20241016-28489-10fcyw sitelibdir\=./.gem.20241016-28489-10fcyw install

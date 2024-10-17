@@ -1,0 +1,17 @@
+current directory: /Users/hithin/nighthawk/HithinP_Student_2025/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/hithin/.rbenv/versions/3.1.4/bin/ruby -I /Users/hithin/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/hithin/nighthawk/HithinP_Student_2025/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20241016-28489-tbf8c7 sitelibdir\=./.gem.20241016-28489-tbf8c7 clean
+
+current directory: /Users/hithin/nighthawk/HithinP_Student_2025/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20241016-28489-tbf8c7 sitelibdir\=./.gem.20241016-28489-tbf8c7
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.1'
+
+current directory: /Users/hithin/nighthawk/HithinP_Student_2025/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20241016-28489-tbf8c7 sitelibdir\=./.gem.20241016-28489-tbf8c7 install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20241016-28489-tbf8c7

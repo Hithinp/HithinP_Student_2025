@@ -65,3 +65,6 @@ image: /images/mario_animation.png
 
 <p style="color: blue;">Click here to see Sprint2 Grading</p>
 <a href="{{ site.baseurl }}/Sprint2_Grading/"><button>Sprint2 Grading</button></a>
+
+<p style="color: blue;">Click here to see MCQ corrections</p>
+<a href="{{ site.baseurl }}/MCQ_CSP/"><button>MCQ CSP</button></a>

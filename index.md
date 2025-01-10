@@ -48,8 +48,8 @@ image: /images/mario_animation.png
 <p style="font-size:90%; color: darkblue; font: bold 24px Arial, sans-serif;">Explore More:</p>
 <hr>
 
-<p style="color: blue;">Click here to learn about Legends of Zelda: Breath of the Wild</p>
-<a href="{{ site.baseurl }}/zelda/"><button>Legends of Zelda: Breath of the Wild</button></a>
+<p style="color: red;">Click here to learn about advice from college students</p>
+<a href="{{ site.baseurl }}/College Talk/"><button>College Talk</button></a>
 
 <hr>
 

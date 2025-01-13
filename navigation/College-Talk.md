@@ -3,9 +3,8 @@ layout: base
 title: College Talk
 permalink: /College-Talk
 ---
-<img src="../images/Screenshot 2025-01-08 at 6.17.57 PM.jpeg" alt="Screenshot 2025-01-08 at 6.17.57 PM.jpeg" width="60%" height="60%">
 
-
+<img src="https://i.postimg.cc/gcqZ52c6/Screenshot-2025-01-08-at-6-17-57-PM.png" alt="Screenshot 2025-01-08 at 6.17.57 PM.jpeg" width="60%" height="60%">
 <style>
   h2 {
     color: #003366; /* Dark blue */

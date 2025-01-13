@@ -49,7 +49,7 @@ image: /images/mario_animation.png
 <hr>
 
 <p style="color: red;">Click here to learn about advice from college students</p>
-<a href="{{ site.baseurl }}/College Talk/"><button>College Talk</button></a>
+<a href="{{ site.baseurl }}//College-Talk/"><button>College Talk</button></a>
 
 <hr>
 

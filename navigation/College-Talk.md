@@ -1,7 +1,7 @@
 ---
 layout: base
 title: College Talk
-permalink: /College Talk
+permalink: /College-Talk
 ---
 <img src="../images/Screenshot 2025-01-08 at 6.17.57 PM.jpeg" alt="Screenshot 2025-01-08 at 6.17.57 PM.jpeg" width="60%" height="60%">
 

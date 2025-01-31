@@ -152,7 +152,7 @@ Validation: Checks if mood is a non-empty string.
 </p>
 
 <hr>
-<img src="{{site.baseurl}}/images/CSP_MCQ/Screenshot 2025-01-31 at 12.05.38 AM.jpeg" alt="Screenshot 1" style="width: 150%; margin-bottom: 10px; border: 2px solid #1b5e20; border-radius: 5px;">
+<img src="{{site.baseurl}}/images/CSP_MCQ/Screenshot 2025-01-31 at 8.51.05 AM.jpeg" alt="Screenshot 1" style="width: 150%; margin-bottom: 10px; border: 2px solid #1b5e20; border-radius: 5px;">
 <p>Backend displays current mood
 </p>
 
@@ -162,7 +162,7 @@ Validation: Checks if mood is a non-empty string.
 </p>
 
 <hr>
-<img src="{{site.baseurl}}/images/CSP_MCQ/Screenshot 2025-01-31 at 12.08.07 AM.jpeg" alt="Screenshot 1" style="width: 150%; margin-bottom: 10px; border: 2px solid #1b5e20; border-radius: 5px;">
+<img src="{{site.baseurl}}/images/CSP_MCQ/Screenshot 2025-01-31 at 8.46.47 AM.jpeg" alt="Screenshot 1" style="width: 150%; margin-bottom: 10px; border: 2px solid #1b5e20; border-radius: 5px;">
 <p>Backend updates current mood 
 </p>
 
@@ -172,6 +172,6 @@ Validation: Checks if mood is a non-empty string.
 </p>
 
 <hr>
-<img src="{{site.baseurl}}/images/CSP_MCQ/Screenshot 2025-01-31 at 12.13.35 AM.jpeg" alt="Screenshot 1" style="width: 150%; margin-bottom: 10px; border: 2px solid #1b5e20; border-radius: 5px;">
+<img src="{{site.baseurl}}/images/CSP_MCQ/Screenshot 2025-01-31 at 8.41.05 AM.jpeg" alt="Screenshot 1" style="width: 150%; margin-bottom: 10px; border: 2px solid #1b5e20; border-radius: 5px;">
 <p>Backend updates current mood 
 </p>

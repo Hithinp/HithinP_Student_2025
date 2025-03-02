@@ -172,6 +172,17 @@ Validation: Checks if mood is a non-empty string.
 </p>
 
 <hr>
-<img src="{{site.baseurl}}/images/CSP_MCQ/Screenshot 2025-01-31 at 8.41.05 AM.jpeg" alt="Screenshot 1" style="width: 150%; margin-bottom: 10px; border: 2px solid #1b5e20; border-radius: 5px;">
+<img src="{{site.baseurl}}/images/CSP_MCQ/Screenshot 2025-02-03 at 2.50.55 PM.jpeg" alt="Screenshot 1" style="width: 150%; margin-bottom: 10px; border: 2px solid #1b5e20; border-radius: 5px;">
 <p>Backend updates current mood 
+</p>
+
+
+<hr>
+<img src="{{site.baseurl}}/images/CSP_MCQ/Screenshot 2025-01-31 at 2.47.26 PM.jpeg" alt="Screenshot 1" style="width: 150%; margin-bottom: 10px; border: 2px solid #1b5e20; border-radius: 5px;">
+<p>This code defines two methods, read and clear, which are likely part of a database model using an ORM like SQLAlchemy. The read method returns a dictionary containing the object's id, mood, and user_id, allowing for easy serialization of the object, which is useful for API responses or data processing. The clear method is responsible for deleting the instance from the database. It first attempts to remove the object using db.session.delete(self), followed by db.session.commit() to finalize the deletion. If an error occurs during this process, the exception is caught, and db.session.rollback() is executed to undo any partial changes before re-raising the exception. This ensures data integrity and prevents database corruption in case of unexpected errors. 
+</p>
+
+<hr>
+<img src="{{site.baseurl}}/images/CSP_MCQ/Screenshot 2025-01-31 at 2.58.56 PM.jpeg" alt="Screenshot 1" style="width: 150%; margin-bottom: 10px; border: 2px solid #1b5e20; border-radius: 5px;">
+<p>This updated get method allows users to retrieve mood entries based on a specified user_id. It first extracts the user_id from the request’s query parameters and checks whether it is provided. If no user_id is supplied, it returns an error message with a 400 status code. The method then queries the Mood table to fetch all mood entries associated with that user_id. If no moods are found, it returns a 404 error indicating that no records exist for the given user. Otherwise, it formats the retrieved mood entries as a JSON response by calling their read method. This ensures that users can easily fetch and view mood data related to specific individuals.
 </p>

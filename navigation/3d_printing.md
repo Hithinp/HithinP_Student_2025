@@ -119,3 +119,86 @@ Conclusion
 
 
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>4K Fractal Generator</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #eee;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    canvas {
+      display: block;
+      margin: 1em auto;
+      border: 1px solid #444;
+    }
+    input {
+      margin: 5px;
+      padding: 4px;
+      width: 100px;
+    }
+    button {
+      margin: 10px;
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>4K Mandelbrot Fractal Generator</h1>
+  <div>
+    <label>Zoom: <input type="number" id="zoom" value="200" step="10" /></label>
+    <label>Center X: <input type="number" id="centerX" value="-0.5" step="0.01" /></label>
+    <label>Center Y: <input type="number" id="centerY" value="0" step="0.01" /></label>
+    <label>Iterations: <input type="number" id="maxIter" value="1000" /></label>
+    <button onclick="renderFractal()">Generate</button>
+  </div>
+  <canvas id="fractalCanvas" width="3840" height="2160"></canvas>
+
+  <script>
+    function renderFractal() {
+      const canvas = document.getElementById("fractalCanvas");
+      const ctx = canvas.getContext("2d");
+      const imageData = ctx.createImageData(canvas.width, canvas.height);
+      const data = imageData.data;
+
+      const zoom = parseFloat(document.getElementById("zoom").value);
+      const centerX = parseFloat(document.getElementById("centerX").value);
+      const centerY = parseFloat(document.getElementById("centerY").value);
+      const maxIter = parseInt(document.getElementById("maxIter").value);
+
+      for (let x = 0; x < canvas.width; x++) {
+        for (let y = 0; y < canvas.height; y++) {
+          let zx = (x - canvas.width / 2) / zoom + centerX;
+          let zy = (y - canvas.height / 2) / zoom + centerY;
+          let i = 0;
+          let cx = zx;
+          let cy = zy;
+          while (zx * zx + zy * zy < 4 && i < maxIter) {
+            const tmp = zx * zx - zy * zy + cx;
+            zy = 2 * zx * zy + cy;
+            zx = tmp;
+            i++;
+          }
+
+          const pixelIndex = (y * canvas.width + x) * 4;
+          const color = i === maxIter ? 0 : 255 - Math.floor(255 * i / maxIter);
+          data[pixelIndex] = color;     // R
+          data[pixelIndex + 1] = color; // G
+          data[pixelIndex + 2] = color; // B
+          data[pixelIndex + 3] = 255;   // A
+        }
+      }
+
+      ctx.putImageData(imageData, 0, 0);
+    }
+  </script>
+</body>
+</html>
+
+

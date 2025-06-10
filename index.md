@@ -64,11 +64,6 @@ image: /images/mario_animation.png
   </div>
 </div>
 
-<!-- Footer -->
-<div class="footer">
-  <p>&copy; 2025 Hithin Pulamarasetty. All rights reserved.</p>
-</div>
-
 <!-- External FontAwesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -183,3 +178,23 @@ body {
   margin-top: 40px;
 }
 </style>
+
+<div style="font-family: Arial, sans-serif; max-width: 700px; margin: 2rem auto; padding: 1.5rem; border: 1px solid #ddd; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+  <h2 style="font-size: 1.8rem; margin-bottom: 0.75rem;">🔧 About Me</h2>
+  <p style="font-size: 1rem; color: #555; line-height: 1.6;">
+    I specialize in AI, robotics, and software development—blending technical precision with creative problem-solving across real-world engineering projects.
+  </p>
+  <ul style="list-style: none; padding-left: 0; margin-top: 1rem;">
+    <li style="margin-bottom: 0.5rem;">🤖 <strong>AI & Automation:</strong> WPILib autonomous code, Limelight vision tracking, task management tools.</li>
+    <li style="margin-bottom: 0.5rem;">🛠️ <strong>Hardware Design:</strong> Built a DIY CNC mill from scratch using CAD and custom fabrication.</li>
+    <li style="margin-bottom: 0.5rem;">💻 <strong>Full-Stack Skills:</strong> Created web-based tools to support business operations and logistics.</li>
+    <li style="margin-bottom: 0.5rem;">📐 <strong>CAD & Systems:</strong> Deep knowledge of modeling, optimization, and mechanical systems.</li>
+    <li style="margin-bottom: 0.5rem;">🚀 <strong>Team-Oriented:</strong> FRC design experience with a focus on collaboration and iteration.</li>
+  </ul>
+</div>
+
+
+<!-- Footer -->
+<div class="footer">
+  <p>&copy; 2025 Hithin Pulamarasetty. All rights reserved.</p>
+</div>

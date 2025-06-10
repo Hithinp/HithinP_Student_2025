@@ -32,7 +32,7 @@ image: /images/mario_animation.png
           <p>hithinp@gmail.com</p>
         </div>
       </a>
-      <a class="link-card github" href="https://github.com/hithin">
+      <a class="link-card github" href="https://github.com/Hithinp">
         <i class="fab fa-github"></i>
         <div class="content">
           <h4>GitHub</h4>
